@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "scrapy-comics"
+version = "0.1.0"
+description = ""
+authors = ["Danil"]
+readme = "README.md"
+packages = [{include = "scrapy_comics"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+requests = "^2.26.0"
+beautifulsoup4 = "^4.10.0"
+fake-useragent = "^1.0.0"
+
+[tool.poetry.group.dev.dependencies]
+autopep8 = "^2.0.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
