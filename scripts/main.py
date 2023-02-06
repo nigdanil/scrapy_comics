@@ -1,7 +1,9 @@
+from work_with_galery.dataCollections import Data_Collector
 
 
 def main() -> None:
-    pass
+    foo = Data_Collector()
+    foo.сrawler()
 
 
 if __name__ == "__main__":
