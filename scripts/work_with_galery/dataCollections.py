@@ -1,15 +1,10 @@
+import csv
 from bs4 import BeautifulSoup
 
-# from url.getURL import GetURL
 from url.getURL import GetURL
 from work_with_galery.genComicsPages import GenComicsPages
 from work_with_galery.getComicsPagination import GetComicsPagination
 from work_with_galery.comicsInfo import ComicsInfo
-# from work_with_galery.aboutBook import AboutBook
-# from work_with_galery.readPage import ReadPage
-# from work_with_galery.regexBookPages import RegexBookPages
-# from work_with_galery.loadDataLinks import LoadDataLinks as readDataLinks
-# from work_with_galery.bookCover import BookCover
 
 
 class Data_Collector:
@@ -19,12 +14,6 @@ class Data_Collector:
         self.comics_pages_count = []
 
         self.comics_galary_pages = []
-
-        self.books_info_part_2 = []
-
-        self.books_info_part_3 = []
-
-        self.booksCovers = []
 
     def get_pages_cont(self):
 
@@ -65,61 +54,37 @@ class Data_Collector:
 
         tem_data = self.gen_galary_pages()
 
-        print(len(tem_data))
+        temp_comicsName = ComicsInfo()
 
-        for i in range(len(tem_data)):
-            # print(tem_data[i])
+        temp_comicsLink = ComicsInfo()
 
-            getURL = GetURL()
+        temp_comicsCover = ComicsInfo()
 
-            html_document = getURL.getHTMLdocument(tem_data[i])
+        with open(f'data\data.csv', 'w', newline='') as csvfile:
+            fieldnames = ['comicsID', 'comicsName',
+                          'comicsLink', 'comicsCover']
 
-            soup = BeautifulSoup(html_document, 'html.parser')
+            writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
 
-            boo = ComicsInfo()
-            print(boo.comics_info(soup))
+            writer.writeheader()
 
+            for first_iter in range(len(tem_data)):
 
-# fo = Data_Collector()
+                getURL = GetURL()
 
-# fo.сrawler()
-#     readData = readDataLinks()
+                html_document = getURL.getHTMLdocument(tem_data[first_iter])
 
-#     links = readData.datad_books_links()
+                soup = BeautifulSoup(html_document, 'html.parser')
 
-#     for i in range(len(links)):
+                comicsName = temp_comicsName.comics_info(soup)[0]
+                comicsLink = temp_comicsLink.comics_info(soup)[1]
+                comicsCover = temp_comicsCover.comics_info(soup)[2]
 
-#         getURL = GetURL()
-
-#         html_document = getURL.getHTMLdocument(links[i])
-
-#         soup = BeautifulSoup(html_document, 'html.parser')
-
-#         # Create structure
-
-#         dataComicsCover = ComicsCover()
-
-#         prodInfo = BookInfo()
-
-#         about = AboutBook()
-
-#         readPage = ReadPage()
-
-#         builder_links = RegexBookPages()
-
-#         readPage = ReadPage()
-
-#         # Pages links generator
-#         self.book_pages.append(builder_links.build_book_links(
-#             links[i], readPage.get_page_range(soup)))
-
-#         self.booksCovers.append(dataBooksCover.book_cover(soup))
-
-#         self.books_info_part_1.append(prodInfo.book_info(soup))
-
-#         self.books_info_part_2.append(about.small_description(soup))
-
-#         self.books_info_part_3.append(
-#             readPage.get_page_range(soup)[-1])
-
-# return self.books_info_part_1, self.books_info_part_2, self.books_info_part_3, self.book_pages, self.booksCovers
+                if first_iter == 10:
+                    break
+                writer.writerow(
+                    {'comicsID': first_iter,
+                     'comicsName': comicsName[first_iter],
+                     'comicsLink': comicsLink[first_iter],
+                     'comicsCover': comicsCover[first_iter],
+                     })
