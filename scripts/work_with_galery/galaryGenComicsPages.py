@@ -1,6 +1,3 @@
-import re
-
-
 class GenComicsPages:
 
     def __init__(self):

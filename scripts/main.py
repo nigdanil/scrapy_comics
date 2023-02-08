@@ -1,4 +1,4 @@
-from work_with_galery.dataCollections import Data_Collector
+from work_with_galery.galaryDataCollections import Data_Collector
 
 
 def main() -> None:

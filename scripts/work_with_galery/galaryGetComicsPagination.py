@@ -1,6 +1,3 @@
-import re
-
-
 class GetComicsPagination:
 
     def __init__(self):
