@@ -15,6 +15,7 @@ class Data_Collector:
     def сrawler(self):
 
         del_part_link = 'https://readcomicsonline.ru/comic/'
+        count = 1
 
         logging.basicConfig(filename='example.log',
                             encoding='utf-8', level=logging.DEBUG)
@@ -31,32 +32,35 @@ class Data_Collector:
 
         # Work do not touch!--------------------------------------
 
-        for iter_galary_pages in range(len(gen_link)):
+        with open(f'data\data.csv', 'w', newline='', encoding='utf-8') as csvfile:
+            fieldnames = ['comicsNumberInPages', 'comicsID', 'comicsName',
+                          'comicsLink', 'comicsCover']
 
-            sleep(randint(1, 3))
+            writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
 
-            getURL = GetURL()
+            writer.writeheader()
 
-            temp_comicsName = GalaryComicsInfo()
+            for iter_galary_pages in range(len(gen_link)):
 
-            galary_html_document = getURL.getHTMLdocument(
-                gen_link[iter_galary_pages])
+                sleep(randint(1, 3))
+                # if iter_galary_pages == 2:
+                #     break
 
-            temp_get_galary_comics = BeautifulSoup(
-                galary_html_document, 'html.parser')
+                getURL = GetURL()
 
-            temp_count = (
-                len(temp_comicsName.galary_comics_info(temp_get_galary_comics)[3]))
+                temp_comicsName = GalaryComicsInfo()
 
-            html_document = getURL.getHTMLdocument(gen_link[iter_galary_pages])
+                galary_html_document = getURL.getHTMLdocument(
+                    gen_link[iter_galary_pages])
 
-            with open(f'data\{iter_galary_pages}.csv', 'w', newline='', encoding='utf-8') as csvfile:
-                fieldnames = ['comicsNumber', 'comicsID', 'comicsName',
-                              'comicsLink', 'comicsCover']
+                temp_get_galary_comics = BeautifulSoup(
+                    galary_html_document, 'html.parser')
 
-                writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+                temp_count = (
+                    len(temp_comicsName.galary_comics_info(temp_get_galary_comics)[3]))
 
-                writer.writeheader()
+                html_document = getURL.getHTMLdocument(
+                    gen_link[iter_galary_pages])
 
                 for temp_data_comics in range(temp_count):
 
@@ -68,7 +72,7 @@ class Data_Collector:
 
                     writer.writerow(
                         {
-                            'comicsNumber': temp_data_comics,
+                            'comicsNumberInPages': count,
 
                             'comicsID': temp_comicsName.galary_comics_info(
                                 soup)[1][temp_data_comics].replace(
@@ -80,5 +84,6 @@ class Data_Collector:
                             'comicsLink': temp_comicsName.galary_comics_info(
                                 soup)[1][temp_data_comics],
                             'comicsCover': temp_comicsName.galary_comics_info(
-                                soup)[2][temp_data_comics],
+                                    soup)[2][temp_data_comics],
                         })
+                    count += 1
