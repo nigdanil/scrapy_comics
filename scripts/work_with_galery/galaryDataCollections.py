@@ -12,6 +12,9 @@ from work_with_galery.galaryPagesCount import GalaryPagesCount
 class Data_Collector:
 
     def сrawler(self):
+
+        del_part_link = 'https://readcomicsonline.ru/comic/'
+
         logging.basicConfig(filename='example.log',
                             encoding='utf-8', level=logging.DEBUG)
         # Pages cont----------------------------
@@ -70,7 +73,7 @@ class Data_Collector:
 
                             'comicsID': temp_comicsName.galary_comics_info(
                                 soup)[1][temp_data_comics].replace(
-                                'https://readcomicsonline.ru/comic/', ''),
+                                f'{del_part_link}', ''),
 
                             'comicsName': temp_comicsName.galary_comics_info(
                                 soup)[0][temp_data_comics],
