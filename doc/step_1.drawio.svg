@@ -1,8 +1,17 @@
-<svg host="65bd71144e" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="198px" height="61px" viewBox="-0.5 -0.5 198 61" content="&lt;mxfile&gt;&lt;diagram id=&quot;GzkruwFaws4bD6XVuMAO&quot; name=&quot;Страница 1&quot;&gt;lZRNU4QwDIZ/DXc+FN2j4q5enHFkRs8dGqEzhTIlK6y/3mBbSsV19ALN0yQlbxqirGine8365lFxkFEa8ynK7qI0zdOcnjM4GZDtLg2oteAGJR6U4gMsjC09Cg5D4IhKSRR9CCvVdVBhwJjWagzd3pQMT+1ZDRtQVkxu6avg2Bh6nV55/gCibtzJSb4zOy1zzraSoWFcjSuU7aOs0EqhWbVTAXLWzuli4g5ndpcP09DhXwJsIwY8udqAU6nW7FRHr9sGW0lWQkvo+M0soN8kchBy3o/JGpBpdB6VZMMgKoet25zGnDofdfa7k0UNukWgWkB9IhcNkqF4D+OY7We9+C2hT0pQxjSe3A2ynbA3L3GNcCkGddQV2Ki1cN8SXcS/56GCa8BNHlqsyvHoqy0/tyg1id+ZPNqqn4FxIkX5sune2AiEsmfVbI80fGH7bCrQCNN/lXcBSVj5zpqjH4RFjGY1BHl8vleBOl4KMv0kGOX87yTbfwI=&lt;/diagram&gt;&lt;/mxfile&gt;">
-    <defs/>
+<svg host="65bd71144e" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="368px" height="200px" viewBox="-0.5 -0.5 368 200" content="&lt;mxfile&gt;&lt;diagram id=&quot;GzkruwFaws4bD6XVuMAO&quot; name=&quot;Страница 1&quot;&gt;7VfbbuIwEP0apN2HXeVS0vJYQtt9aKWqrPby6CZDYtXxIMc0sF+/48QmhATKlj6uhNrMyfgy5xyPYRTGxfpOsWX+gCmIUeCl61E4GwVBFET01wCbBggn4wbIFE8byG+BOf8DFvQsuuIplJ1EjSg0X3bBBKWERHcwphRW3bQFiu6qS5ZBD5gnTPTRnzzVeYNeBZct/g14lruV/WjSvCmYS7aVlDlLsdqBwptRGCtE3TwV6xiE4c7x0oy7PfB2uzEFUp8ywApR6o2rDVIq1YYSJf2b5roQFPn0CDK9NgS2Lwm55cK89ygqNVPaZSSClSVPHGzTzDT9bdqdm9V3ALvpO8ACtNpQggLBNH/tCsGsntk2bzv0ETktEXhr5yCrhHWe74RwU5S4UgnYUbvE7U104R2fhwrOQPfmoYedclqoluWApuFRjVDpHDOUTNy0aFcyWuqX0efr2IW/rVx1MFt3oo2NBgUZFK3hrIECexzr8hvo8kwlO9wdIcou/crEyk76BCwlJJ7/6FFY5VzDfMnqfVfUpbqkHaz1FZSG9VGLurd+1yITG1Ztx9i6Jt/pFpF3PhWXPSoUUTHEQ1nxQrD6JC9QaucqwwETPJPmGBMHoAgwtXPqgtf2hUbDWpJzkd6zDa5MAXTSkxcXTXNU/A9NyxyvdSOwDZ2az27G3Iy03lNQUs6jo9/fgx7YupN4z0ptgQSFYMuSP2/LKMiKXE5Rayw61u5JOSD4QXX3G0DgDcgbDch7Fb3Zs57ozmIyowr+abnJwGrhnpmYICkl0zDFlUzLM1vTVc9mo2BqLlQO5ka9No1gs4Se6Yh2XZtB4QvEKFC198mCbok9yBlRwEIftGFJZ5nL7L7OmV20yJNlw0BIYxeivpxynqYgjYVQM80avxhzLE3PrukaT+lDBMamc45p4zHFfhvTx6QrHaOkWhivrQNkxgqMIU/z2YH26ISOTrNVcMRWp3aNyYCce8oJXivSKOe++/jvkq0gAeq7yur03cg4++L3tAz7WoYDugn2DOIRS645mvlVk7un51uSdT3JZQ6Kf5CU4+DEDnG+ku7q6Z1MminH9JM5lZ//H9CPUDU6se+/44BS2P4SaNpz+3MqvPkL&lt;/diagram&gt;&lt;/mxfile&gt;">
+    <defs>
+        <clipPath id="mx-clip-211-141-152-26-0">
+            <rect x="211" y="141" width="152" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-211-175-152-26-0">
+            <rect x="211" y="175" width="152" height="26"/>
+        </clipPath>
+    </defs>
     <g>
         <path d="M 69.63 30 L 7 30" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="stroke"/>
         <path d="M 74.88 30 L 67.88 33.5 L 69.63 30 L 67.88 26.5 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="all"/>
+        <path d="M 197 30 L 277 30 Q 287 30 287 40 L 287 103.63" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 287 108.88 L 283.5 101.88 L 287 103.63 L 290.5 101.88 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="all"/>
         <rect x="77" y="0" width="120" height="60" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" pointer-events="all"/>
         <g transform="translate(-0.5 -0.5)">
             <switch>
@@ -19,6 +28,25 @@
                     Read CSV
                 </text>
             </switch>
+        </g>
+        <path d="M 207 136 L 207 110 L 367 110 L 367 136" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="all"/>
+        <path d="M 207 136 L 207 196 L 367 196 L 367 136" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 207 136 L 367 136" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" font-weight="bold" pointer-events="none" text-anchor="middle" font-size="12px">
+            <text x="286.5" y="127.5">
+                readCSV
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-211-141-152-26-0)" font-size="12px">
+            <text x="212.5" y="153.5">
+                + field: type
+            </text>
+        </g>
+        <path d="M 207 166 L 367 166" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-211-175-152-26-0)" font-size="12px">
+            <text x="212.5" y="187.5">
+                + method(type): type
+            </text>
         </g>
     </g>
     <switch>
