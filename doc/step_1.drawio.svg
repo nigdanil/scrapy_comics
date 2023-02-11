@@ -1,10 +1,16 @@
-<svg host="65bd71144e" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="368px" height="200px" viewBox="-0.5 -0.5 368 200" content="&lt;mxfile&gt;&lt;diagram id=&quot;GzkruwFaws4bD6XVuMAO&quot; name=&quot;Страница 1&quot;&gt;7VfbbuIwEP0apN2HXeVS0vJYQtt9aKWqrPby6CZDYtXxIMc0sF+/48QmhATKlj6uhNrMyfgy5xyPYRTGxfpOsWX+gCmIUeCl61E4GwVBFET01wCbBggn4wbIFE8byG+BOf8DFvQsuuIplJ1EjSg0X3bBBKWERHcwphRW3bQFiu6qS5ZBD5gnTPTRnzzVeYNeBZct/g14lruV/WjSvCmYS7aVlDlLsdqBwptRGCtE3TwV6xiE4c7x0oy7PfB2uzEFUp8ywApR6o2rDVIq1YYSJf2b5roQFPn0CDK9NgS2Lwm55cK89ygqNVPaZSSClSVPHGzTzDT9bdqdm9V3ALvpO8ACtNpQggLBNH/tCsGsntk2bzv0ETktEXhr5yCrhHWe74RwU5S4UgnYUbvE7U104R2fhwrOQPfmoYedclqoluWApuFRjVDpHDOUTNy0aFcyWuqX0efr2IW/rVx1MFt3oo2NBgUZFK3hrIECexzr8hvo8kwlO9wdIcou/crEyk76BCwlJJ7/6FFY5VzDfMnqfVfUpbqkHaz1FZSG9VGLurd+1yITG1Ztx9i6Jt/pFpF3PhWXPSoUUTHEQ1nxQrD6JC9QaucqwwETPJPmGBMHoAgwtXPqgtf2hUbDWpJzkd6zDa5MAXTSkxcXTXNU/A9NyxyvdSOwDZ2az27G3Iy03lNQUs6jo9/fgx7YupN4z0ptgQSFYMuSP2/LKMiKXE5Rayw61u5JOSD4QXX3G0DgDcgbDch7Fb3Zs57ozmIyowr+abnJwGrhnpmYICkl0zDFlUzLM1vTVc9mo2BqLlQO5ka9No1gs4Se6Yh2XZtB4QvEKFC198mCbok9yBlRwEIftGFJZ5nL7L7OmV20yJNlw0BIYxeivpxynqYgjYVQM80avxhzLE3PrukaT+lDBMamc45p4zHFfhvTx6QrHaOkWhivrQNkxgqMIU/z2YH26ISOTrNVcMRWp3aNyYCce8oJXivSKOe++/jvkq0gAeq7yur03cg4++L3tAz7WoYDugn2DOIRS645mvlVk7un51uSdT3JZQ6Kf5CU4+DEDnG+ku7q6Z1MminH9JM5lZ//H9CPUDU6se+/44BS2P4SaNpz+3MqvPkL&lt;/diagram&gt;&lt;/mxfile&gt;">
+<svg host="65bd71144e" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="608px" height="200px" viewBox="-0.5 -0.5 608 200" content="&lt;mxfile&gt;&lt;diagram id=&quot;GzkruwFaws4bD6XVuMAO&quot; name=&quot;Страница 1&quot;&gt;7VhNb+IwEP01SLuHXZEE0nIs0HYPrVSV1X4c3WRIrDoe5JgC/fU7TmxCSKBsYas9IKE28zL+mHnPM+BOMMqWt4rN0nuMQXT8brzsBOOO74d+SH8NsCqBYNAvgUTxuIS8CpjwV7Bg16JzHkNec9SIQvNZHYxQSoh0DWNK4aLuNkVRX3XGEmgAk4iJJvqTxzot0Uv/osK/AU9St7IXDso3GXPONpI8ZTEuNqDguhOMFKIun7LlCITJnctLOe5mx9v1xhRIfcgAS0SuVy42iClUa0qU9G+Y6kyQ5dEjyPjKJLB6ScgNF+Z9l6xcM6WdRyRYnvPIwdbNTNPcpt25WX0DsJu+BcxAqxU5KBBM85c6Eczymaz91kMfkNMSfnfpFGSZsMrzHBFuihznKgI7ajNxWxP1uvvnoYAT0I156GEjnAoqaNnBabCXI1Q6xQQlE9cVWqeMlvpl+Pnad+ZvS1dhjJc1a2WtVkJaSStzVkK+PY5F+CV0cSSTtdztSZRd+oWJuZ30EVhMyGjyo5HCRco1TGas2PeCqlQ9aTtjfQGlYblXou6tV5fIwJqLqmKsVZNuVIuwe3wqLhqpUJSKtjzkC54JVpzkKUrtVGVywARPpDnGlANQBJjYOVXBK/tCo8lalHIR37EVzk0AdNKjZ2cNU1T8laZlLq9FIbAFnYrPpsfEjLTaU5CTz4NLv7cF3bNlzfGO5doCEQrBZjl/WoeRkRS5HKLWmNWk3aCyhfCd7G4XAL/bQm/YQu9l+GbNeqSexWRCEfzVcoOW1YItMTFBVEqmYYhzGedHlqbLhsw6/tA0VA6mo16ZQrCaQUN0lHZdiEHhM4xQoKr6yZS6xBbkhChgqnfKMKezzGVyV/iMexXyaLNhIKSxU1E0p5THMUgjIdRMs1IvRhwzU7OLdPWH9KEEjkzl7NPGR2R7lU0f4670CCXFwnghHSAxLsAI8jCd7SiPjujwMFn5e2R1aNUYtNC5xZzgBSMlc+67j/cu2jIioOhVlqfvhsbxF6/BZdDkMmjhTbAnEA+Yc83RzK9K3y0+36KsrkkuU1D8RFT2/QMrxPFMutbTOJk0U4rxJ3MqP58P6ClYDQ+s+6c4oF6vQSvOQI4xmmdgv2iem/vxzb13eW7uvtc/d/fji0d5ZP+L9u6F5/5+XH9/g8yPbPDNX3jnBv+PzuiHdvhBg6p3XvbUrnqqm5+TXvZYIW9e9pRd4/S3PWRWt6JlN6uuloPrPw==&lt;/diagram&gt;&lt;/mxfile&gt;">
     <defs>
         <clipPath id="mx-clip-211-141-152-26-0">
             <rect x="211" y="141" width="152" height="26"/>
         </clipPath>
         <clipPath id="mx-clip-211-175-152-26-0">
             <rect x="211" y="175" width="152" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-451-141-152-26-0">
+            <rect x="451" y="141" width="152" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-451-175-152-26-0">
+            <rect x="451" y="175" width="152" height="26"/>
         </clipPath>
     </defs>
     <g>
@@ -48,6 +54,27 @@
                 + method(type): type
             </text>
         </g>
+        <path d="M 447 136 L 447 110 L 607 110 L 607 136" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 447 136 L 447 196 L 607 196 L 607 136" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 447 136 L 607 136" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" font-weight="bold" pointer-events="none" text-anchor="middle" font-size="12px">
+            <text x="526.5" y="127.5">
+                openDocument
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-451-141-152-26-0)" font-size="12px">
+            <text x="452.5" y="153.5">
+                + field: type
+            </text>
+        </g>
+        <path d="M 447 166 L 607 166" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-451-175-152-26-0)" font-size="12px">
+            <text x="452.5" y="187.5">
+                + method(type): type
+            </text>
+        </g>
+        <path d="M 367 149 L 440.63 149" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 445.88 149 L 438.88 152.5 L 440.63 149 L 438.88 145.5 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="none"/>
     </g>
     <switch>
         <g requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"/>
